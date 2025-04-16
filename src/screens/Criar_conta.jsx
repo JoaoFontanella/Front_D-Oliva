@@ -7,6 +7,12 @@ function Criar_conta() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const registerUser = (email, password) => {
+    console.log('Email:', email);
+    console.log('Senha:', password);
+    alert('Conta criada com sucesso! (função a ser implementada no back-end)');
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     registerUser(email, password);

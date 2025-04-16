@@ -4,9 +4,16 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 
+
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const loginUser = (email, password) => {
+    console.log('Email:', email);
+    console.log('Senha:', password);
+    alert('Login simulado! (função a ser implementada no back-end)');
+  };
 
   const handleLogin = (e) => {
     e.preventDefault();
