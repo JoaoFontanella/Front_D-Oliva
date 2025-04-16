@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FavoritesContext } from '../context/FavoritesContext';
 import '../styles/Card.css';
-import { Link } from 'react-router-dom';
 
 const Card = ({ id, image, title, description, addToCart, product }) => {
   const { favoriteItems, addToFavorites, removeFromFavorites } = useContext(FavoritesContext);
@@ -31,13 +30,13 @@ const Card = ({ id, image, title, description, addToCart, product }) => {
       <div className="card-buttons">
         <button className="card-button" onClick={() => addToCart(product)}>
           <img
-            src="../src/assets/Cart.png"
+            src="/assets/Cart.png"
             alt="Cart"
           />
         </button>
         <button className="fav-button" onClick={handleFavoriteClick}>
           <img
-            src={isFavorite ? "../src/assets/FavoritosSelecionado.png" : "../src/assets/Favoritos.png"}
+            src={isFavorite ? "/assets/FavoritosSelecionado.png" : "/assets/Favoritos.png"}
             alt="Favoritos"
           />
         </button>

@@ -52,13 +52,13 @@ const Home = () => {
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="../src/assets/Banner_1.png" className="d-block w-100" alt="Promoção 1" />
+            <img src="/assets/Banner_1.png" className="d-block w-100" alt="Promoção 1" />
           </div>
           <div className="carousel-item">
-            <img src="../src/assets/Banner_2.png" className="d-block w-100" alt="Promoção 2" />
+            <img src="/assets/Banner_2.png" className="d-block w-100" alt="Promoção 2" />
           </div>
           <div className="carousel-item">
-            <img src="../src/assets/Banner_3.png" className="d-block w-100" alt="Promoção 3" />
+            <img src="/assets/Banner_3.png" className="d-block w-100" alt="Promoção 3" />
           <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="1000">
             </div>
           </div>

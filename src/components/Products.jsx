@@ -1,7 +1,7 @@
 let products = [
   {
     id: 1,
-    image: '../src/assets/P1.png',
+    image: '/assets/P1.png',
     title: 'Protetor Solar FPS 50 Pó Compacto',
     description: 'R$ 49,90',
     descricao_produto:
@@ -9,7 +9,7 @@ let products = [
   },
   {
     id: 2,
-    image: '../src/assets/P2.png',
+    image: '/assets/P2.png',
     title: 'Base Matte Payot Alta Cobertura',
     description: 'R$ 48,99',
     descricao_produto:
@@ -17,7 +17,7 @@ let products = [
   },
   {
     id: 3,
-    image: '../src/assets/P3.png',
+    image: '/assets/P3.png',
     title: 'Base Facial Stick Hidrabene FPS 50',
     description: 'R$ 65,50',
     descricao_produto:
@@ -25,7 +25,7 @@ let products = [
   },
   {
     id: 4,
-    image: '../src/assets/P4.png',
+    image: '/assets/P4.png',
     title: 'Wella Professionals Oil Reflections',
     description: 'R$ 76,70',
     descricao_produto:
@@ -33,7 +33,7 @@ let products = [
   },
   {
     id: 5,
-    image: '../src/assets/P5.png',
+    image: '/assets/P5.png',
     title: 'Tônico Fortalecedor Bomba Antiqueda',
     description: 'R$ 22,90',
     descricao_produto:
@@ -41,7 +41,7 @@ let products = [
   },
   {
     id: 6,
-    image: '../src/assets/P13.png',
+    image: '/assets/P13.png',
     title: 'Impala Ana Castela Laçada Perfeita',
     description: 'R$ 7,90',
     descricao_produto:
@@ -49,7 +49,7 @@ let products = [
   },
   {
     id: 7,
-    image: '../src/assets/P7.png',
+    image: '/assets/P7.png',
     title: 'Ciclo - Loção Hidratante Kiss',
     description: 'R$ 48,99',
     descricao_produto:
@@ -57,7 +57,7 @@ let products = [
   },
   {
     id: 8,
-    image: '../src/assets/P8.png',
+    image: '/assets/P8.png',
     title: 'Ciclo - Kiss Me More Loção Hidratante',
     description: 'R$ 59,90',
     descricao_produto:
@@ -65,7 +65,7 @@ let products = [
   },
   {
     id: 9,
-    image: '../src/assets/P9.png',
+    image: '/assets/P9.png',
     title: 'Base Líquida Basic - Nina Makeup',
     description: 'R$ 845,40',
     descricao_produto:
@@ -73,7 +73,7 @@ let products = [
   },
   {
     id: 10,
-    image: '../src/assets/P10.png',
+    image: '/assets/P10.png',
     title: 'Gloss Chocochilli Fran by Franciny Ehlke',
     description: 'R$ 46,90',
     descricao_produto:
@@ -81,7 +81,7 @@ let products = [
   },
   {
     id: 11,
-    image: '../src/assets/P11.png',
+    image: '/assets/P11.png',
     title: 'Esfoliante Facial Labotrat Pêssego',
     description: 'R$ 31,00',
     descricao_produto:
@@ -89,11 +89,12 @@ let products = [
   },
   {
     id: 12,
-    image: '../src/assets/P12.png',
+    image: '/assets/P12.png',
     title: 'Manteiga de Cacau Coco - Melu',
     description: 'R$ 19,90',
     descricao_produto:
       'Manteiga de Cacau Coco - Melu: Hidratante intensivo com manteiga de cacau e coco, proporcionando maciez e nutrição profunda para a pele.',
   },
 ];
+
 export { products };

@@ -160,7 +160,7 @@ function Checkout() {
               Cartão
               <img
                 className="payment-icons"
-                src="../src/assets/Visa_Mastercard.png"
+                src="/assets/Visa_Mastercard.png"
                 alt="Cartões Aceitos"
               />
             </label>
@@ -209,8 +209,8 @@ function Checkout() {
                 name="cvv"
                 value={cardDetails.cvv}
                 onChange={handleCardDetailsChange}
-                maxLength="3" // Limita em 3 caracteres
-                pattern="\d{3}" // Limita em 3 digitos
+                maxLength="3"
+                pattern="\d{3}"
                 required
               />
             </div>

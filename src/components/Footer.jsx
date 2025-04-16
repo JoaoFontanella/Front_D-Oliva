@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="pagamentos">
           <h3>Pagamento</h3>
           <img
-            src="../src/assets/Pagamentos.png"
+            src="/assets/Pagamentos.png"
             alt="Formas de Pagamento"
           />
         </div>

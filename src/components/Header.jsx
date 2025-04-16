@@ -13,7 +13,7 @@ const Header = ({ onSearch }) => {
       <div className="logo">
         <Link to="/">
           <img
-            src="../src/assets/LOGO.png"
+            src="/assets/LOGO.png"
             alt="Logo"
           />
         </Link>
@@ -42,7 +42,7 @@ const Header = ({ onSearch }) => {
       <Link to="/Favoritos" id="Fav">
       <button id="fav" className="favorito_button" type="submit">
         <img
-          src="../src/assets/Favoritos.png"
+          src="/assets/Favoritos.png"
           alt="Fav"
         />
       </button>
@@ -50,7 +50,7 @@ const Header = ({ onSearch }) => {
       <Link to="/Cart" id="Cart">
         <button id="cart" className="cart_button" type="submit">
           <img
-            src="../src/assets/Cart.png"
+            src="/assets/Cart.png"
             alt="Cart"
           />
         </button>
@@ -58,7 +58,7 @@ const Header = ({ onSearch }) => {
       <Link to="/Createaccount" id="User">
         <button id="user" className="user_button" type="submit">
           <img
-            src="../src/assets/User.png"
+            src="/assets/User.png"
             alt="User"
           />
         </button>
