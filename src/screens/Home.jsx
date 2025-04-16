@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           <div className="carousel-item">
             <img src="/assets/Banner_3.png" className="d-block w-100" alt="Promoção 3" />
-          <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="1000">
+          <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="500">
             </div>
           </div>
         </div>
